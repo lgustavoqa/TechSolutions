@@ -1,0 +1,46 @@
+/*Barra de botões*/
+nav {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    align: justify
+}
+
+/*Cor dos botões */
+.menu-btn {
+    color: white;
+    text-decoration: none;
+    background-color: #0077cc;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+}
+/*Passar mouse sobre botões*/
+.menu-btn:hover {
+    background-color: #005fa3;
+}
+/*Efeito de clique dos botões*/
+.menu-btn:active {
+    transform: scale(0,95);
+}
+/*Após clique muda para:*/
+.menu-btn:visited {
+    color: #ddd
+}
+/* Rolamento da página*/
+html {
+    scroll-behavior: smooth;
+    color:#333333
+}
+header {
+    background-color: white;
+}
+
+img {object-fit: cover;
+}
